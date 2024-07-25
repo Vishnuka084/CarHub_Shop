@@ -31,8 +31,9 @@ const Hero = () => {
       </div>
         <div className="hero__image-container">
           <div className="hero__image">
-            <Spline scene="https://prod.spline.design/59QCdw-CPAaJpC0Z/scene.splinecode"/>        </div>
+            <Spline scene="https://prod.spline.design/59QCdw-CPAaJpC0Z/scene.splinecode"/>        
           </div>
+        </div>
         <div>
       </div>
     </div>

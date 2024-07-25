@@ -24,7 +24,7 @@ const Navbar = () => {
                 title= "Sign In"
                 btnType="button"
                 containerStyles='text-primary-blue
-                rounded-full bg-while min-w-[130px]'
+                rounded-full bg-while min-w-[130px] bg-white'
             />
         </nav>
     </header>
