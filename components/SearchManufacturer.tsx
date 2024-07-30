@@ -50,7 +50,15 @@ setManufacturer}: SearchManufacturerProps) => {
           >
 
             <Combobox.Options>
-              {}
+              {filteredManufacturers.length == 0 && 
+              query !== "" && (
+                <Combobox.Option
+                  value={query}
+                  className="search-manufacture__option"
+                >
+                  create "{query}"
+                </Combobox.Option>
+              )}
             </Combobox.Options>
 
           </Transition>
